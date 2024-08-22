@@ -58,13 +58,13 @@ const Navbar = () => {
               <li key={id} className="text-xl">
                 <a
                   href={link}
-                  className="hover:text-primary inline-block px-3 py-1 font-semibold hover:shadow-[0_3px_0_-1px_#ef4444]"
+                  className="inline-block px-3 py-1 font-semibold hover:text-primary hover:shadow-[0_3px_0_-1px_#ef4444]"
                 >
                   {title}
                 </a>
               </li>
             ))}
-            <button className="hover:bg-primary rounded-full p-2 text-2xl duration-200 hover:text-white">
+            <button className="rounded-full p-2 text-2xl duration-200 hover:bg-primary hover:text-white">
               <MdOutlineShoppingCart />
             </button>
           </ul>

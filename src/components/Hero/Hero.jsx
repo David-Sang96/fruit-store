@@ -58,9 +58,9 @@ const Hero = () => {
         {/* Right Side */}
         <div className="flex items-center justify-center">
           <motion.img
-            initial={{ opacity: 0, x: 200, rotate: 75 }}
+            initial={{ opacity: 0, x: 200, rotate: 90 }}
             animate={{ opacity: 1, x: 0, rotate: 0 }}
-            transition={{ duration: 1, delay: 0.2 }}
+            transition={{ duration: 1.5, delay: 0.7 }}
             src={fruitPlate1}
             alt="fruit-plate1"
             className="w-[350px] drop-shadow md:w-[550px]"
